@@ -12,14 +12,14 @@ export default function Header() {
         </Link>
 
         <div className="flex">
-          <div>
+          <Link href="/profile/1">
             <Image
               src="/images/icon_oka.jpg"
               alt="logo"
               width={45}
               height={45}
             />
-          </div>
+          </Link>
           <div className="ml-4 flex items-center">
             <HamburgerButton />
           </div>
