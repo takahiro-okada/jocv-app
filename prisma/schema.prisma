@@ -41,6 +41,10 @@ model User {
   email         String?   @unique
   emailVerified DateTime?
   image         String?
+  twitterUrl    String?   // TwitterのURL
+  instagramUrl  String?   // InstagramのURL
+  linkedinUrl   String?   // LinkedInのURL
+  bio           String?   // ユーザーの自己紹介
   accounts      Account[]
   sessions      Session[]
 }
